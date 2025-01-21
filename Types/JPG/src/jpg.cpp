@@ -141,7 +141,7 @@ PLUGIN_EXPORT bool Validate(const AppCUI::Utils::BufferView& buf, const std::str
     {
         sect["Pattern"]     = "magic:FF D8";
         sect["Priority"]    = 1;
-        sect["Description"] = "JPEG image file (*.jpg, *.jpeg)";
+        sect["Description"] = "JPG image file (*.jpg)";
     }
 }
 
